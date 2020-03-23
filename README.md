@@ -22,8 +22,8 @@ In order to deploy flask app container to test and shared the application, we ca
 
 We have to create a Docker Hub repository (with the same name like PROJECT_NAME variable in .env file) and configure it as shown below:
 
-![Docker Hub Configuration](/resources/dockerhub1.png)
+![Docker Hub Configuration](/assets/dockerhub1.png)
 
-![Docker Hub Configuration](/resources/dockerhub2.png)
+![Docker Hub Configuration](/assets/dockerhub2.png)
 
 It's also possible to configure rules to generate different versions of the application (add differente **build rules**).
