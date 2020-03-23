@@ -7,13 +7,13 @@ PS: Within linux, it is easy to transform *.bat* scripts into *.sh* scripts beca
 
 # Use
 
-Up and running dev environment
+Up and running dev environment:
 >docker-compose up -d 
 
-Install dependencies
+Install dependencies:
 >install_dependencies.bat
 
-Run flask app
+Run flask app:
 >run_flask.bat
 
 # Integration with Docker Hub
@@ -26,4 +26,4 @@ We have to create a Docker Hub repository (with the same name like PROJECT_NAME 
 
 ![Docker Hub Configuration](/assets/dockerhub2.png)
 
-It's also possible to configure rules to generate different versions of the application (add differente **build rules**).
+It's also possible to configure rules to generate different versions of the application (add different **build rules**).
