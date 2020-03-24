@@ -18,9 +18,9 @@ Run flask app:
 
 # Integration with Docker Hub
 
-In order to deploy flask app container to test and shared the application, we can push an image to docker hub automatically when commit occurs.
+In order to deploy flask app container to test and shared the application, we can push an image to docker hub (*Dockerfile*) automatically when commit occurs.
 
-We have to create a Docker Hub repository (for example with the same name like PROJECT_NAME variable in .env file) and configure it as shown below:
+We have to create a Docker Hub repository (for example with the same name like PROJECT_NAME variable in *.env* file) and configure it as shown below:
 
 ![Docker Hub Configuration](/assets/dockerhub1.png)
 
