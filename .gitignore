@@ -1,2 +1,3 @@
 build_image_version.bat
 tareas.txt
+volumes/flask/__pycache__/*
