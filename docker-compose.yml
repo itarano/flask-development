@@ -3,17 +3,17 @@ version: '3.7'
 services:
   python:
     container_name: ${PROJECT_NAME}
-    image: ${PYTHON_IMAGE}
+    build:
+      context: .
+      args:
+        python_image: ${PYTHON_IMAGE}
     ports:
       - "127.0.0.1:5000:5000"
     volumes:
-      - ./volumes/flask:/code
+      - ./volumes/flask:/app
     env_file: ./.env
     networks: 
       - python
-    entrypoint: /bin/sh
-    stdin_open: true
-    tty: true
 
 networks:
     python:
