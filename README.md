@@ -12,7 +12,7 @@ Up and running dev environment:
 
 In order to deploy flask app container to test and shared the application (or deploy it in production), we can push an image to docker hub **automatically** when commit occurs (continuous integration). Moreover, it is also posible to run test before push to DockerHub automatically with *docker-compose.test.yml* file. 
 
-&rarr; [docker blog](!https://www.docker.com/blog/how-to-build-and-test-your-docker-images-in-the-cloud-with-docker-hub/) &larr;
+[docker blog](!https://www.docker.com/blog/how-to-build-and-test-your-docker-images-in-the-cloud-with-docker-hub/)
 
 We have to create a Docker Hub repository (for example, *flask-dev*) and configure it as shown below:
 
