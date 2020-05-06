@@ -1,7 +1,5 @@
 # Dockerfile - this is a comment. Delete me if you want.
-ARG python_image
-
-FROM $python_image
+FROM python:3.7.7
 
 COPY ./volumes/flask /app
 WORKDIR /app

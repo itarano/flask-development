@@ -2,11 +2,9 @@ version: '3.7'
 
 services:
   python:
-    container_name: ${PROJECT_NAME}
+    container_name: flask-dev
     build:
       context: .
-      args:
-        python_image: ${PYTHON_IMAGE}
     ports:
       - "127.0.0.1:5000:5000"
     volumes:
