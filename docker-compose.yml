@@ -1,4 +1,5 @@
 version: '3.7'
+
 services:
   python:
     container_name: ${PROJECT_NAME}
