@@ -1,4 +1,4 @@
-version: '3.7'
+version: '3.6'
 
 services:
   python:
@@ -9,7 +9,8 @@ services:
       - "127.0.0.1:5000:5000"
     volumes:
       - ./volumes/flask:/app
-    env_file: ./.env
+    environment: 
+      - FLASK_ENV=development
     networks: 
       - python
 
