@@ -4,4 +4,4 @@ services:
  sut:
    build:
      context: .
-   command: ls
+   command: --version
