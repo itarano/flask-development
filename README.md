@@ -8,13 +8,7 @@ PS: Within linux, it is easy to transform *.bat* scripts into *.sh* scripts beca
 # Use
 
 Up and running dev environment:
->docker-compose up -d 
-
-Install dependencies:
->install_dependencies.bat
-
-Run flask app:
->run_flask.bat
+>docker-compose up --build -d 
 
 # Integration with Docker Hub
 
