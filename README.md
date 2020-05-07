@@ -30,3 +30,5 @@ We have configurated two rules:
 ## Test or deploy DockerHub image
 
 docker run -d -p 5000:5000 itarano/flask-dev:release-1.0.0
+
+This shows how easy is to deploy or test new releases in any kind of environment.
