@@ -34,3 +34,8 @@ We have configurated two rules:
 docker run -d -p 5000:5000 itarano/flask-dev:release-1.0.0
 
 This shows how easy is to deploy or test new releases in any kind of environment.
+
+## Test with Github Actions
+In the directory .github/workflows there is a file to define ci/cd pipeline with Github Actions (test)
+
+![Github Action](/assets/githubaction1.png)
